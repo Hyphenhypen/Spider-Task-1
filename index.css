@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: linear-gradient(180deg, #ef4e91 0%, rgb(220 17 100 / 83%) 6.77%, rgb(44 41 41) 100%);
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}   
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.0.5);
+    transition: all 0.3s ease-in-out;
+}
+
+nav::after {
+    content: '';
+    position: absolute;
+    overflow: hidden;
+    z-index: -1;
+    opacity: 0;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    transition: opacity 0.3s ease-in-out;
+}
+
+#logo{
+    margin: 10px;
+    font-size: 2rem;
+}
+
+#items ul li{
+    margin: 20px;
+    display: flex;
+    float: left;
+    font-size: 1.5rem;
+    padding-left: 20px;
+}
+
+.intro{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.3rem;
+}
+
+.content{
+    width: 30%;
+}
+
+.content h2{
+    font-size: 1.5rem;
+    color: rgba(231, 235, 35, 1);
+}
+
+.home-image img{
+    width: 100%;
+    height: 200px;
+}
+
+#instruction{
+    text-align: left;
+    margin: 0px 250px;
+}
+
+#instruction h1{
+    color: rgba(231, 235, 35, 1);
+}
+
+#instruction li {
+    font-size: 1.3rem;
+}
+
+#gettingStarted{
+    display: flex;
+}
+#gettingStarted button {
+    height: 50px;
+    width: 100px;
+    margin: 50px auto;
+    font-size: 1.5rem;
+}
+
+#gettingStarted button:hover{
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.3);
+    transform: scale(1.1);
+}
+
+#gettingStarted button a{
+    text-decoration: none;
+    color: black;
+}
+
+#count{
+    align-items: center;
+    text-align: center;
+    align-items: center;
+}

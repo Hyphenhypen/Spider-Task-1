@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="puzzle.css">
+</head>
+<body>
+    <div id="main">
+        <h2>Original Image</h2>
+        <div id="original_image">
+        </div>
+        <button type="button" id="randomButton">Randamise</button>
+    </div>
+    <div id="container">
+        <h1>Sliding Puzzle</h1>
+        <div id="board"></div>
+        <label for="imageInput">Select a Image</label>
+        <br>
+        <input type="file" id="imageInput" />
+    </div>
+    <div id="count">
+        <h1>Steps : <span id="countSteps">0</span></h1>
+        <h2>Previously Selected Images</h2>
+        <div id="previousImages">
+            
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
